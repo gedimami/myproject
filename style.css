@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: radial-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)),url(./imgs/Ultimate[world4free.in]\ \(69\).jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.logo{
+    width: 20px;
+    height: 10px;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px ;
+    transition: background 2s;
+}
+nav .logo{
+     
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+    font-weight: 600;
+    color: #fff;
+}
+nav .logo img{
+    width: 60px;
+    margin-right: 10px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-weight: 500;
+
+}
+nav:hover{
+    background: rgb(206, 206, 233);
+}
+nav:hover .logo{
+    color: black;
+}
+nav:hover ul li a{
+    color: black;
+}
+.content{
+    margin-top: 10%;
+    margin-left: 10%;
+    color: #fff;
+}
+.content h1{
+    font-size: 100px;
+    line-height: 100px;
+    font-weight: 400;
+}
+.content p{
+    max-width: 600px;
+    line-height: 18px;
+}
+.links{
+    margin-top: 50px;
+    padding: 10px 10px;
+}
+.links a{
+    margin: 10px 10px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+}
+.btn{
+    border: 2px solid red;
+    padding: 10px 35px;
+    border-radius: 30px;
+    margin-right: 15px;
+    
+
+}
+.btn2{
+    border: 2px solid rgb(102, 230, 85);
+    padding: 10px 35px;
+    border-radius: 30px;
+    margin-right: 15px;
+}
+.slide-left{
+    animation: slideleft 1s linear forwards;
+
+}
+@keyframes slideleft{
+    0%{
+        transform: translate(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+p.slide-left{
+    animation-delay: 1s;
+}
+.links.slide-left{
+    animation-delay: 2s;
+}
+.imagss{
+    padding: 10px;
+    margin-top: 60%;
+}
+.imagss img{
+    width: 50%;
+    padding-bottom: 50px;
+}
+.form{
+    border: 2px solid rgb(77, 77, 63);
+    width: 50%;
+    height: 45%;
+    align-items: center;
+    border-radius: 20px;
+    color: white;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)),url(./imgs/Ultimate[world4free.in]\ \(69\).jpg);
+    position: absolute;
+    padding: 30px 25px;
+    margin: 50px 50px; 
+}
+.form h1{
+    text-decoration: none;
+    align-items: center;
+    font-size: 40px;
+    color: orange;
+    margin: 15px 100px;
+    display: flex;
+    
+}
+.form input{
+    width: 150px;
+    height: 15px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+button{
+    width: 100px;
+    height: 20px;
+    margin: 20px 100px;
+    border-radius: 5px;
+}
